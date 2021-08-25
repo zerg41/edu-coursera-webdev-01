@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*!
+ * Personal Styles for Coursera Project-01
+ */
+
+/* Global Styles */
+
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    color: #fff;
+    background-color: #61122f;
+}
