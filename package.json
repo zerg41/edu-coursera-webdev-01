@@ -1,0 +1,25 @@
+{
+  "name": "coursera-webdev-01",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerg41/coursera-webdev-01.git"
+  },
+  "author": "\"zerg41\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerg41/coursera-webdev-01/issues"
+  },
+  "homepage": "https://github.com/zerg41/coursera-webdev-01#readme",
+  "devDependencies": {
+    "@types/browser-sync": "^2.26.2",
+    "@types/gulp": "^4.0.9",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2"
+  }
+}
