@@ -3,7 +3,6 @@
  * Personal Styles for Coursera Project-01
  */
 
-
 /** Global Styles **/
 body {
     font-size: 16px;
@@ -58,22 +57,13 @@ body {
     vertical-align: middle;
 }
 
-.navbar-light .navbar-toggler {
-    border-color: #61122f;
-    color: #61122f;
-}
-
-.navbar-toggler-icon {
-    color: #61122f;
-}
-
 #nav-list {
     margin-top: 10px;
-    margin-right: 15px;
 }
 
 #nav-list li {
-    min-width: 70px;
+    min-height: 85px;
+    min-width: 85px;
 }
 
 #nav-list a {
@@ -82,8 +72,8 @@ body {
 }
 
 #nav-list a:hover {
-    color: #e7e7e7;
-    text-align: center;
+    background-color: #e7e7e7;
+
 }
 
 #nav-list a span {
@@ -92,16 +82,94 @@ body {
 
 #phone {
     margin-top: 5px;
-    margin-left: 15px;
-    text-align: center;
 }
 
 #phone a { /* Phone number */
     padding-bottom: 0;
+    text-align: right;
 }
 
 #phone div { /* We Deliver */
+    padding-right: 15px;
     color: #557c3e;
-    text-align: end;
+    text-align: right;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -25px;
+}
+/* END HEADER */
+
+/******** Large Devices ********/
+@media (min-width: 1200px) {
+
+}
+
+/******** Medium Devices ********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+        background: url('../img/restaurant-logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+}
+
+/******** Small Devices ********/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+/******** XSmall Devices ********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1 { /* Restaraunt name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    
+    .navbar-brand p { /* Kosher cert */
+        text-transform: uppercase;
+        font-size: 0.6em;
+        margin-top: 12px;
+    }
+
+    .navbar-brand p img { /* Star-K */
+        height: 20px;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+}
+
+ /** Personal fix **/
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0;
+    border-color: #f6b319;
+    box-shadow: none;
+}
+
+ #phone a:hover {
+    color: white;
+    background-color: #f6b319;
+}
+
+.navbar-right {
+    margin-right: -30px;
+}
