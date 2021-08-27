@@ -58,6 +58,15 @@ body {
     vertical-align: middle;
 }
 
+.navbar-light .navbar-toggler {
+    border-color: #61122f;
+    color: #61122f;
+}
+
+.navbar-toggler-icon {
+    color: #61122f;
+}
+
 #nav-list {
     margin-top: 10px;
     margin-right: 15px;
@@ -84,19 +93,15 @@ body {
 #phone {
     margin-top: 5px;
     margin-left: 15px;
+    text-align: center;
 }
 
 #phone a { /* Phone number */
-    text-align: right;
     padding-bottom: 0;
 }
 
 #phone div { /* We Deliver */
     color: #557c3e;
-    text-align: right;
-
+    text-align: end;
 }
 
-.navbar-toggler-icon {
-    background-color: #000;
-}
