@@ -10,11 +10,9 @@
     <!-- Preload and Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
@@ -52,8 +50,6 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <!-- Nav menu -->
-
                 <!-- Collapsable menu -->
                 <div id="collapsable-nav" class="collapse navbar-collapse">
                     <ul id="nav-list" class="nav navbar-nav navbar-right">
@@ -83,19 +79,114 @@
                         <div>* We Deliver</div>
                       </li>
                     </ul>
-                  </div>
-
+                </div>
             </div>
         </nav>
-
     </header>
 
     <!-- MAIN -->
     <main>
+        <!-- Mobile-only View Information Block -->
+        <aside class="container">
+            <!-- Call button for mobile devices -->
+            <div id="call-btn" class="visible-xs">
+                <a class="btn" href="tel:410-602-5008">
+                    <span class="glyphicon glyphicon-earphone"></span>
+                    410-602-5008
+                </a>
+            </div>
+            <!-- "We Deliver" information -->
+            <div id="xs-deliver" class="text-center visible-xs">
+                * We Deliver
+            </div>
+        </aside>
+        <!-- Main Section -->        
+        <section id="main-content" class="container">
+            <!-- Jumbotron -->
+            <article class="jumbotron">
+                <img class="img-responsive visible-xs" src="img/jumbotron_768.jpg"
+                alt="Restaraunt picture">
+            </article>
+            <!-- Navigation Tiles -->
+            <article id="home-tiles" class="row">
+                <!-- Menu Tile -->
+                <section class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="menu-categories.html">
+                        <div id="menu-tile" class="tile">
+                            <span>Menu</span>
+                        </div>
+                    </a>
+                </section>
+                <!-- Specials Tile -->
+                <section class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="#">
+                        <div id="specials-tile" class="tile">
+                            <span>Specials</span>
+                        </div>
+                    </a>
+                </section>
+                <!-- Map Tile -->
+                <section class="col-md-4 col-sm-12 col-xs-12">
+                    <a href="#" target="_blank">
+                        <div id="map-tile" class="tile">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156" 
+                                    width="100%" height="250" 
+                                    frameborder="0" style="border:0" 
+                                    allowfullscreen="">
+                            </iframe>
+                            <span>Map</span>
+                        </div>
+                    </a>
+                </section>
+            </article>
+        </section>
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <!-- Working Hours Information -->
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday Closed
+                    <hr class="visible-xs">
+                </section>
+                <!-- Address Information -->
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    7105 Reisterstown Road<br>
+                    Baltimore, MD 21215
+                    <p>
+                        * Delivery area within 3-4 miles, with minimum order
+                        of $20 plus $3 charge for all deliveries.
+                    </p>
+                    <hr class="visible-xs">
+                </section>
+                <!-- Testimonials Information -->
+                <section id="testimonials" class="col-sm-4">
+                    <p>
+                        "The best Chinese restaraunt I've been to! And that's
+                        saying a lot, since I've been too many!"
+                    </p>
+                    <p>
+                        "Amazing food! Great service! Couldn't ask for more!
+                        I'll be back again and again!"
+                    </p>
+                </section>
+            </div>
+            <!-- Copyright -->
+            <section id="footer-copyright" class="text-center">
+                &copy; Copyright David Chu's China Restaraunt Bistro 2015
+                <br class="visible-lg visible-md visible-sm">
+                <hr>
+                Developed by zerg41 <br>
+                2021 Core Systems, LLC.
+            </section>
+        </div>
+
     </footer>
 
     <!-- jQuery (Bootstrap 3.x.x JS plugins depend on it) -->
