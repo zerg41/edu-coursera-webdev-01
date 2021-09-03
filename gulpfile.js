@@ -8,3 +8,10 @@ gulp.task('bs', function() {
         server: "./app"
     })
 });
+
+gulp.task('bs-js', function() {
+    browserSync.init({
+        watch: true,
+        server: "./app/.jstutorial"
+    })
+});
