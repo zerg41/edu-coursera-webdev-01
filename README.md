@@ -15,4 +15,4 @@ date: 2021/08/27
 **Web platform**: Node.js  
 **Node modules**: Gulp, Browsersync  
 **Code editor**: VScode  
-**VCS**: Git (build-in VScode), GitHub Desktop  
+**VCS**: Git (built-in VScode), GitHub Desktop  
