@@ -12,7 +12,7 @@ Date: 2021/08/27
 ## Used Resources
 
 **Stack**: HTML5, CSS3, JavaScript  
-**Frameworks**: Bootstrap (v.3.4.1), JQuery (v.3.6.0)
+**Frameworks**: Bootstrap (v.3.4.1), JQuery (v.3.6.0)  
 **Web platform**: Node.js  
 **Node modules**: Gulp, Browsersync  
 **Code editor**: VScode  
